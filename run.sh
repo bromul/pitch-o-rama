@@ -1,0 +1,1 @@
+FLASK_APP=pitch_o_rama/app.py flask run
