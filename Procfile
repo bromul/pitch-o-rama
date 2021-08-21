@@ -1,0 +1,1 @@
+ web: gunicorn pitch_o_rama.app:app

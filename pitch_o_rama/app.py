@@ -3,7 +3,7 @@ from flask import Flask, request, render_template
 import pickle
 
 app = Flask(__name__)
-model = pickle.load(open('all_pitchers_gbc_pitch.sav', 'rb'))
+model = pickle.load(open('pitch_o_rama/all_pitchers_gbc_pitch.sav', 'rb'))
 
 # Home page
 @app.route('/')
